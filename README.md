@@ -106,9 +106,6 @@ Development ideas
 - Improve forecasting model and add model versioning
 - Add user accounts & alerting features (email/SMS/push)
 
-License
-This repository does not contain a LICENSE file yet. If you want to apply the MIT license, add a LICENSE file with the MIT text. For now, please choose and add a license that matches your needs.
-
 Contact
 Maintainer: Sakash Srivastava
 Repo: https://github.com/SakashSrivastava/SmogSense
