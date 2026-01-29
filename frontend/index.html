@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SmogSense</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#f7fafc">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- HERO SECTION -->
+        <div class="hero">
+            <div class="hero-decor"></div>
+
+            <div class="hero-inner">
+                <div class="brand">
+                    <div class="logo">SS</div>
+                    <div>
+                        <h1>SmogSense</h1>
+                        <p class="subtitle">Air Quality Forecast & Advisory — Delhi</p>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <button id="predictionBtn" class="btn-update">
+                        Update Prediction
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-grid">
+
+            <!-- LEFT COLUMN -->
+            <section class="left-col">
+
+                <!-- MAP CARD -->
+                <div class="card map-card glass">
+                    <h2>Region AQI Map</h2>
+                    <div id="aqiMap"></div>
+                    <div id="aqiLegend" class="aqi-legend"></div>
+                </div>
+
+                <!-- FORECAST CARD -->
+                <div class="card forecast-card glass">
+                    <h2>7-Day Forecast</h2>
+                    <div id="forecastContainer" class="forecast-scroll">
+                        <!-- Forecast cards injected by script.js -->
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- RIGHT COLUMN -->
+            <aside class="right-col">
+
+                <!-- CURRENT AQ -->
+                <div class="card glass current-card">
+                    <h2>Current Air Quality</h2>
+                    <p id="currentPm">PM2.5: --</p>
+                    <p id="currentAqi">AQI: --</p>
+                </div>
+
+                <!-- ADVISORY -->
+                <div class="card advisory glass">
+                    <h2>Health Advisory</h2>
+                    <div id="advisoryText">--</div>
+                </div>
+
+            </aside>
+
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

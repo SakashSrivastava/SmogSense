@@ -1,0 +1,10 @@
+[
+  {"id": "anand_vihar", "name": "Anand Vihar", "lat": 28.6500, "lon": 77.3167},
+  {"id": "punjabi_bagh", "name": "Punjabi Bagh", "lat": 28.6619, "lon": 77.1347},
+  {"id": "rk_puram", "name": "R K Puram", "lat": 28.5466, "lon": 77.1732},
+  {"id": "igi_airport", "name": "IGI Airport", "lat": 28.5562, "lon": 77.1000},
+  {"id": "narela", "name": "Narela", "lat": 28.7858, "lon": 77.0810},
+  {"id": "mandir_marg", "name": "Mandir Marg", "lat": 28.6090, "lon": 77.2100},
+  {"id": "ashok_vihar", "name": "Ashok Vihar", "lat": 28.6955, "lon": 77.1591},
+  {"id": "ito", "name": "ITO", "lat": 28.6448, "lon": 77.2335}
+]
