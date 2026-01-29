@@ -112,6 +112,3 @@ This repository does not contain a LICENSE file yet. If you want to apply the MI
 Contact
 Maintainer: Sakash Srivastava
 Repo: https://github.com/SakashSrivastava/SmogSense
-
-Notes
-- This README was generated and committed by GitHub Copilot Chat Assistant based on the current repository contents. If you want edits (formatting, added screenshots, or a license), tell me and I will update the README.md accordingly.
